@@ -1,0 +1,31 @@
+nav a{/*seleciona todos os a em nav*/
+    text-align: center;
+    color: #ffffff;
+    background: #0000ff;
+    display: inline-block;
+    width: 20%;
+    margin-right: 2%;
+}
+
+.current /*seleciona o que foi class como current no html*/{
+    color: #000000;
+    background:#0fff00;
+    text-transform: uppercase;
+}
+
+li{
+    margin: 5px;
+}
+a{
+    padding-left: 22px;
+    text-decoration: none;
+}
+a[href$=".org"]{
+    background: #ffff00;
+}
+a[href$=".edu"]{
+    background: #033f1a;
+}
+a[href$=".gov"]{
+    background: #fc5bfc;
+}

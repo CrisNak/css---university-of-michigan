@@ -1,0 +1,32 @@
+h1{
+    font-family: Courier, Impact, Arial;
+} /*nos textos de h1, usa este tipo de letra especifica, se não tiver a primeira, dá outras alternativas*/
+
+/*costum fonts*/
+@font-face{
+    font-family: mySpecialFont;
+    src: url('Colleen.ttf');
+}
+
+h1{
+    font-family: mySpecialFont;
+}
+
+/* font variant: todos em letra maiuscula, com a primeira maior que as outras*/
+h1{
+    font-variant: small-caps;
+}
+
+/*background color: só no espaço da palavra especificada*/
+h1, span{
+    color:#0000FF;
+    background-color: #B3B3B3;
+}
+
+/*line-height: epaçamento*/
+h1{
+    line-height: 50%;
+}
+h1{
+    line-height: 200%;
+}

@@ -1,0 +1,20 @@
+section{
+    width: 100%;
+
+    -webkit-column-count: 3;/*motor de renderização para chroemer e safari*/
+    -moz-column-count: 3;/* para mozila*/
+    -o-column-count: 3;/* para opera*/
+    column-count: 3;
+
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    -o-column-gap: 15px;
+    column-gap: 15px;
+
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+
+    background: #00b7ea;
+}
